@@ -16,7 +16,6 @@ Huginn Guard is a Telegram bot developed to help secure your staked assets from 
 - [Node.js](https://nodejs.org/) (version 12 or higher recommended)
 - npm (or yarn)
 - A Telegram Bot Token (create one using [BotFather](https://t.me/BotFather))
-- *(Optional)* SSH keys or a Personal Access Token for GitHub (if you plan to contribute)
 
 ### Steps
 
