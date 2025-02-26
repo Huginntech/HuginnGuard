@@ -28,29 +28,8 @@ Open your terminal and run:
 git clone https://github.com/Huginntech/HuginnGuard.git
 cd HuginnGuard
 
-```bash
 npm install
 
 Run the Bot
-```bash
 node index.js
 
-## Usage
-Once your bot is running, you can use the following commands in your Telegram chat with Huginn Guard:
-
-/start
-Displays basic information about the bot and its purpose.
-
-/menu
-Shows a list of available commands.
-
-/add <wallet_address>
-Registers a new wallet address for monitoring. (Valid addresses typically start with cosmos1, celestia1, or osmo1.)
-
-/balance
-Retrieves and displays your wallet balance along with delegation details.
-
-/remove <wallet_address>
-Removes a registered wallet address from monitoring.
-
-The bot continuously monitors your registered addresses and notifies you if any undelegate transactions or validator jail events are detected.
